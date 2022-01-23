@@ -35,3 +35,5 @@ These two simple commands briefed above will help you get your operating systemâ
 There isnâ€™t much difference between sys.platform and platform.sys. platform.sys executes at the run time whereas sys.platform executes at the compile time.
 
 Thus, you can use any one of the above methods at your convenience and required information.
+
+https://www.thecodeteacher.com/howto/1/Python---How-To--Check-Operating-System-
