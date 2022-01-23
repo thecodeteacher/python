@@ -1,0 +1,37 @@
+In this article, you will learn how to detect the operating system currently being used in your system using Python.
+
+platform and system are the Python modules through which we can access the system information.
+
+Detect Operating System Using the platform Module in Python
+The platform module contains information about the details underlying system hardware. You can use the following code to check the OS’s name.
+
+import platform my_os = platform.system() print("OS in my system : ",my_os) 
+Output:
+
+OS in my system :  Linux 
+Here, the platform module is imported, containing the in-built system function system(). The system() function returns the operating system name once it has been called.
+
+For other operating systems, platform.system() outputs as:
+
+'Windows' for Windows OS 'Darwin'  for macOS 
+Detect the Operating System Using the sys Module in Python
+The sys module can also be used to find the operating system of the device. We use the platform attribute of the sys module to get the operating system’s name on our device.
+
+import sys my_os=sys.platform print("OS in my system : ",my_os) 
+Output:
+
+OS in my system :  linux 
+Whenever you want to specifically distinguish your system in between win32 and cygwin, this method can be very useful.
+
+This approach can also be helpful when we want to specifically distinguish your system in between win32 and cygwin.
+
+For other operating system sys.platform outputs as:
+
+`win32`   for Windows(Win32) 'cygwin'  for Windows(cygwin) 'darwin'  for macOS 'aix'     for AIX 
+Earlier, for Linux, sys.platform would contain version names as linux2 and linux3, but it is always linux for every version.
+
+These two simple commands briefed above will help you get your operating system’s information.
+
+There isn’t much difference between sys.platform and platform.sys. platform.sys executes at the run time whereas sys.platform executes at the compile time.
+
+Thus, you can use any one of the above methods at your convenience and required information.
