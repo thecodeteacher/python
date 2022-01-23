@@ -36,4 +36,5 @@ There isn’t much difference between sys.platform and platform.sys. platform.sy
 
 Thus, you can use any one of the above methods at your convenience and required information.
 
-https://www.thecodeteacher.com/howto/1/Python---How-To--Check-Operating-System-
+[thecodeteacher](https://www.thecodeteacher.com/howto/1/Python---How-To--Check-Operating-System-)
+
